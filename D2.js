@@ -88,7 +88,7 @@ console.log("sconto BF e sconto DELI totale:" + total);
   Alla fine mostra il risultato in console.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+/* SCRIVI QUI LA TUA RISPOSTA 
 let num1 = 12;
 let num2 = 2;
 let num3 = 50;
@@ -96,30 +96,38 @@ let numeri = [num1, num2, num3];
 numeri.sort(function (a, b) {
   return a - b;
 });
-console.log(numeri);
+console.log(numeri);*/
 /* ESERCIZIO 8
   Crea un algoritmo per verificare che un valore fornito sia un numero oppure no (suggerimento: cerca su un motore di ricerca "typeof").
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+/* SCRIVI QUI LA TUA RISPOSTA 
+let num1 = 10;
+if (typeof num1 === "number") {
+  console.log("è un numero");
+}*/
 
 /* ESERCIZIO 9
   Crea un algoritmo per controllare se un numero fornito sia pari o dispari (suggerimento: cerca l'operatore modulo su un motore di ricerca)
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
-
+/* SCRIVI QUI LA TUA RISPOSTA 
+let num1 = 5;
+if (num1 % 2 === 0) {
+  console.log("pari");
+} else {
+  console.log("disparsi");
+}*/
 /* ESERCIZIO 10
   Modifica la logica del seguente algoritmo in modo che mostri in console il messaggio corretto in ogni circostanza.
-  let val = 7
-  if (val < 10) {
-      console.log("Meno di 10");
-    } else if (val < 5) {
-      console.log("Meno di 5");
-    } else {
-      console.log("Uguale a 10 o maggiore");
-    }
-*/
+   let val = 7;
+if (val < 5) {
+  console.log("Meno di 5");
+} else if (val < 10) {
+  console.log("Meno di 10");
+} else {
+  console.log("Uguale a 10 o maggiore");
+}  */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
@@ -133,8 +141,10 @@ const me = {
   skills: ["javascript", "html", "css"],
 };
 
-/* SCRIVI QUI LA TUA RISPOSTA */
-
+/* SCRIVI QUI LA TUA RISPOSTA 
+me.city = "Toronto";
+console.log(me);
+*/
 /* ESERCIZIO 12
   Lavorando sempre sull'oggetto precedentemente fornito, scrivi del codice per rimuovere la proprietà "lastName".
 */
